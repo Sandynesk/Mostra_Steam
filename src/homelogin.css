@@ -1,0 +1,137 @@
+/*TUDO ISSO AQUI SÃO COISAS RELACIONADAS À NAVBAR, MANTER ORGANIZADO*/
+.logo {
+    width: 5%;
+    height: 4%;
+}
+.bg-custom {
+    background-color: #7419ec; /* Cor de fundo personalizada para a barra de navegação */
+    height: 80px;
+}
+.collapse{
+    margin-left: 2% !important;
+}
+.navbar-nav .nav-link {
+    color: rgb(0, 0, 0); /* Cor do texto do menu */
+}
+.navbar-nav .nav-link:hover {
+    color: black /* Cor do texto do menu ao passar o mouse */
+}
+.btn.btn-outline-custom {
+    color: rgb(255, 255, 255); /* Cor do texto do botão */
+    font-size: 15px; /* Define o tamanho da fonte */
+    border-color: #ffffff; /* Cor da borda do botão */
+    color: #ffffff; /* Cor do texto do botão */
+}
+.navbar-nav .nav-link {
+    color: white !important; /* Define a cor do texto para branco e usa !important para prioridade */
+    background-color: transparent !important; /* Remove a cor de fundo e a borda do botão */
+    border: none !important; /* Remove a borda do botão */
+    padding: 0; /* Remove o preenchimento interno do botão */
+    font-size: 15px; /* Define o tamanho da fonte */
+    margin-right: 40px;
+}
+.navbar-nav .nav-link:hover {
+  color: #44f6ff !important; /* Define a cor do texto do botão ao passar o mouse */
+}
+/* Cabou a Navbar */
+
+/*AQUI SÃO APENAS COISAS DO CARROSSEL, MANTER ORGANIZADO */
+.carousel-control-prev,
+.carousel-control-next{
+    background-color: black !important; /*Esse diabo aqui é pra mexer na setinha da esquerda e direita*/
+    height: 10% !important;
+    width: 3% !important;
+    margin-top: 13%;
+    margin-left: 5%;
+}
+.carousel-control-next{
+    margin-right: 5% !important; /*Essa porra aqui sobrepõe o comando de cima (usando "!important" e faz a setinha direita ficar no lugar certo.*/
+}
+
+.carousel-indicators{
+    background-color: #7419ec !important; /*Faixa roxa esquisita no banner, pode tirar se quiser, mas tira essa porra aqui inteira se for tirar*/
+    border-style:initial;
+}
+.active{
+    color: #7419ec !important;
+}
+/*Cabou o Carrossel*/
+
+/*ESSE ESPAÇO AQUI É PRA MEXER NO CSS DA INFORMAÇÃO CARALHO*/
+
+/* Define o estilo para o contêiner principal */
+.container-fluid.my-5 .p-5 {
+    background-color: #7419ec !important; /* Cor de fundo roxa */
+    width: 100%; /* Largura total */
+    padding: 2rem; /* Preenchimento interno */
+    margin: 0; /* Margem zero */
+    margin-top: -4%; /* Margem superior negativa para ajuste de posição */
+}
+
+/* Estilo para o título e texto */
+h1.text-body-emphasis, p.fs-5 {
+    color: #fff !important; /* Cor branca */
+    font-size: 1.5rem; /* Tamanho da fonte padrão */
+}
+
+/* Estilo específico para o título */
+h1.text-body-emphasis {
+    margin-top: 1%; /* Espaçamento superior */
+    font-size: 3rem; /* Tamanho da fonte do título */
+}
+
+/* Estilo para a logo */
+.logo-bottom {
+    display: block;
+    max-width: 7%; /* Largura máxima da logo */
+    width: 100%; /* Largura total */
+    margin: 20px auto 0; /* Margens */
+    margin-top: -8%; /* Margem superior negativa para ajuste de posição */
+}
+
+/* Estilo para o div dos botões */
+.d-inline-flex.mb-5 {
+    margin-top: 15px; /* Margem superior */
+}
+
+/* Estilo específico para o texto */
+p.fs-5 {
+    font-size: 1.5rem !important; /* Tamanho da fonte do texto */
+}
+
+/* Estilos responsivos para telas menores que 900px */
+@media (max-width: 900px) {
+    /* Estilos aqui */
+}
+
+/* Estilos para telas maiores ou iguais a 1200px */
+@media (min-width: 1200px) {
+    .logo-bottom {
+        max-width: 12%; /* Ajuste da largura máxima da logo para telas maiores */
+        margin-top: px; /* Ajuste da margem superior da logo para telas maiores */
+    }
+}
+
+/* Estilos para telas maiores ou iguais a 1600px */
+@media (min-width: 1600px) {
+    .logo-bottom {
+        max-width: 8%; /* Ajuste da largura máxima da logo para telas HD */
+        margin-top: px; /* Ajuste da margem superior da logo para telas HD */
+    }
+}
+
+.styled-svg {
+    color: var(--bs-indigo);
+}
+
+
+/*Acabô a informação :3*/
+
+
+
+
+
+
+
+
+/* Ac */
