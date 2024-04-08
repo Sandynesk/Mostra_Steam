@@ -5,7 +5,7 @@ import bannerImage from './bannerplaceholder.png'; // Importe a imagem
 
 function Banner(){
     return(
-        <img src={bannerImage} alt='banner'></img> // altera isso no css :)
+        <img class="Banner" src={bannerImage} alt='banner'></img> // altera isso no css :)
     )
 }
 
