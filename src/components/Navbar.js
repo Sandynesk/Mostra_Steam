@@ -2,12 +2,15 @@
 import './homelogin.css';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Importe o CSS do Bootstrap
+import Logo from './Group.png';
 
 function Navbar(){
   return (
     <nav class="navbar navbar-expand-lg bg-custom">
     <div class="container-fluid">
-        <img src="Fotos/logo.png" alt="logo" class="logo"></img>
+    <a className="navbar-brand" href="#">
+          <img src={Logo} alt="Logo" className="navbar-logo"/>
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>

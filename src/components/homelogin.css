@@ -3,6 +3,10 @@
     width: 5%;
     height: 4%;
 }
+
+.navbar-logo {
+    height: 34px; 
+  }
 .bg-custom {
     background-color: #6900f1; /* Cor de fundo personalizada para a barra de navegação */
     height: 80px;
