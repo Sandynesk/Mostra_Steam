@@ -31,7 +31,7 @@
     margin-right: 40px;
 }
 .navbar-nav .nav-link:hover {
-  color: #44f6ff !important; /* Define a cor do texto do botão ao passar o mouse */
+  color: #311761be !important; /* Define a cor do texto do botão ao passar o mouse */
 
 }
 /* Cabou a Navbar */
@@ -55,6 +55,30 @@
 }
 .active{
     color: #7419ec !important;
+}
+
+.barra{
+    background-color: transparent;
+    width: 250px;
+    position: relative;
+    top: 17px;
+}
+
+.Cadu{
+    position: relative;
+    left: 170px;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 100;
+    border-color: blue;
+    color: #ffffff;
+    transition: 0.5s;
+    bottom: 32px;
+}
+
+.Cadu:hover{
+    background-color: blue;
 }
 /*Cabou o Carrossel*/
 
@@ -81,15 +105,6 @@ h1.text-body-emphasis {
     font-size: 3rem; /* Tamanho da fonte do título */
 }
 
-/* Estilo para a logo */
-.logo-bottom {
-    display: block;
-    max-width: 7%; /* Largura máxima da logo */
-    width: 100%; /* Largura total */
-    margin: 20px auto 0; /* Margens */
-    margin-top: -8%; /* Margem superior negativa para ajuste de posição */
-}
-
 /* Estilo para o div dos botões */
 .d-inline-flex.mb-5 {
     margin-top: 15px; /* Margem superior */
@@ -109,7 +124,7 @@ p.fs-5 {
 @media (min-width: 1200px) {
     .logo-bottom {
         max-width: 12%; /* Ajuste da largura máxima da logo para telas maiores */
-        margin-top: px; /* Ajuste da margem superior da logo para telas maiores */
+        margin-top: auto; /* Ajuste da margem superior da logo para telas maiores */
     }
 }
 
@@ -117,7 +132,7 @@ p.fs-5 {
 @media (min-width: 1600px) {
     .logo-bottom {
         max-width: 8%; /* Ajuste da largura máxima da logo para telas HD */
-        margin-top: px; /* Ajuste da margem superior da logo para telas HD */
+        margin-top: auto; /* Ajuste da margem superior da logo para telas HD */
     }
 }
 
@@ -167,5 +182,3 @@ p.fs-5 {
     margin-left: 30%;
 
 }
-
-/* Ac */

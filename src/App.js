@@ -5,16 +5,17 @@ import Info from './components/Info';
 import Banner from './components/Banner';
 import Blocao from './components/Blocao';
 import Interesse from './components/Interesse';
+import {ReactComponent as Logo} from './logo.svg'
 
 function App() {
   return (
     <div className="App">
-      <Navbar /> {/* Renderize o componente Navbar */}
+      <Navbar />
       <Banner/>
       <Blocao />
       <Interesse />
       <Info />
-    {/* Outros conteúdos do seu aplicativo */}
+      <Logo className='Logo'/>
     </div>
   );
 }
